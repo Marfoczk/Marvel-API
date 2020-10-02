@@ -1,27 +1,21 @@
 /* fonts */
 
 @font-face {
-  font-family: 'Bangers';
-  src: url('/Bangers-Regular.ttf') format('truetype');
+  font-family: 'Marvel';
+  src: local('Marvel-Regular'), url(../src/fonts/Marvel-Regular.ttf) format('truetype');
   font-weight: 400;
   font-style: normal;
 }
+/* @font-face {
+  font-family: 'AmaticSC';
+  src: url('/AmaticSC-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+} */
 
 @font-face {
-  font-family: 'Marvel';
-  src: url('/Marvel-Regular.ttf') format('truetype');
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'KaushanScript';
-  src: url('/KaushanScript-Regular.ttf') format('truetype');
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
   font-family: 'AmaticSC';
-  src: url('/AmaticSC-Regular.ttf'), url(https://fonts.gstatic.com/s/amaticsc/v15/TUZyzwprpvBS1izr_vOEBOSfQZQ.woff2) format('truetype');
+  src: local('AmaticSC-Regular'), url(../src/fonts/AmaticSC-Regular.ttf) format('truetype');
   font-weight: 400;
   font-style: normal;
 }
