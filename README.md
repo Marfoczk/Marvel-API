@@ -1,4 +1,5 @@
 # Marvel-API
+![alt text](http://i.annihil.us/u/prod/marvel/i/mg/3/50/526548a343e4b/portrait_incredible.jpg)
 <br />
 
 React (Hooks), Redux (Hooks, Thunk), React-Router, Framer-Motion, SASS
