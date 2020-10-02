@@ -1,3 +1,13 @@
+# Marvel-API
+<br />
+
+React (Hooks), Redux (Hooks, Thunk), React-Router, Framer-Motion, SASS
+<br />
+
+### [LIVE DEMO HEROKU](https://marfoczk.github.io/Marvel-API/)
+<br />
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
