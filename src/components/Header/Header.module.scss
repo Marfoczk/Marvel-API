@@ -1,0 +1,25 @@
+.header {
+    position: relative;
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+    // align-content: flex-end;
+    // border-bottom: 1px solid rgba(0,0,0,.3);
+
+    // &:after {
+    //     content: '';
+
+    // }
+
+    .line {
+        position: absolute;
+        width: 100vw;
+        height: 1px;
+        background-color:  rgba(0,0,0,.3);
+        bottom: 0;
+        left: 0; 
+        right: 0;
+        // transform: scaleX(0);
+        transform-origin: left;
+    }
+}
