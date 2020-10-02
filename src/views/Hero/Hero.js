@@ -5,7 +5,7 @@ import { motion } from 'framer-motion'
 import { GetMarvelHero } from '../../actions/marvelActions'
 import Loading from '../../components/Loading/Loading'
 
-const Hero = ({ match, history }) => {
+const Hero = ({ match }) => {
 
     const heroName = match.params.name;
     const dispatch = useDispatch();

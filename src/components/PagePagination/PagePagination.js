@@ -1,16 +1,13 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { withRouter, useHistory} from 'react-router-dom'
 import Pagination from '@material-ui/lab/Pagination';
-import { useSelector, useDispatch } from 'react-redux'
-import { pageLimit, GetMarvelList } from '../../actions/marvelActions'
+import { useSelector } from 'react-redux'
+import { pageLimit } from '../../actions/marvelActions'
 import styles from './PagePagination.module.scss'
 
-const PagePagination = (props) => {
+const PagePagination = () => {
 
-    // const [page, setPage] = useState(0)
- 
     const marvelList = useSelector(state => state.marvelList)
-    // const dispatch = useDispatch();
 
     let history = useHistory();
     let pageNumber = Number(history.location.pathname.substring(1))

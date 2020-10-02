@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from 'react'
+import React, { useState, useRef } from 'react'
 import styles from './ListItem.module.scss'
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
