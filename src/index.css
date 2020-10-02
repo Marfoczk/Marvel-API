@@ -21,7 +21,7 @@
 }
 @font-face {
   font-family: 'AmaticSC';
-  src: url('/AmaticSC-Regular.ttf') format('truetype');
+  src: url('/AmaticSC-Regular.ttf'), url(https://fonts.gstatic.com/s/amaticsc/v15/TUZyzwprpvBS1izr_vOEBOSfQZQ.woff2) format('truetype');
   font-weight: 400;
   font-style: normal;
 }
