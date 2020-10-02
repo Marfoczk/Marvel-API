@@ -4,7 +4,9 @@
 React (Hooks), Redux (Hooks, Thunk), React-Router, Framer-Motion, SASS
 <br />
 
-### [LIVE DEMO HEROKU](https://marfoczk.github.io/Marvel-API/)
+Thanks to [Marvel API](https://developer.marvel.com).
+
+### [LIVE DEMO](https://marfoczk.github.io/Marvel-API/)
 <br />
 
 
